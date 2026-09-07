@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff7df" />
+  <title>ことわざランド</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">ことばを たのしく まなぼう！</p>
+      <h1>ことわざランド</h1>
+    </div>
+    <div class="header-actions">
+      <button id="speakToggle" class="icon-btn" aria-label="読み上げ設定">🔊</button>
+      <button id="furiganaToggle" class="icon-btn" aria-label="ふりがな設定">ふ</button>
+      <button id="homeBtn" class="icon-btn" aria-label="ホームへ戻る">🏠</button>
+    </div>
+  </header>
+
+  <main id="app" class="app-shell" aria-live="polite"></main>
+
+  <footer>
+    <span>ことわざランド v3</span>
+    <span id="progressSummary"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
